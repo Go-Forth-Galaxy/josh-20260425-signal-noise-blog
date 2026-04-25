@@ -10,6 +10,7 @@ export type Post = {
   gradient: string;
   accent: string;
   excerpt: string;
+  image: string;
   body: string[];
 };
 
@@ -28,6 +29,7 @@ export const posts: Post[] = [
     accent: "bg-violet-500",
     excerpt:
       "Cloud AI grabbed the headlines. But the models humming inside your phone, your laptop, and your earbuds are quietly rewriting what intelligent software actually feels like.",
+    image: "https://ai.go-forth.com/images/img-1777141497950-gmtlbr.png",
     body: [
       "For the last three years, the AI conversation has been dominated by buildings — server farms the size of small cities, GPU clusters humming at the bottom of cooling reservoirs, billion-dollar training runs. It made for great headlines. It also made AI feel like a utility you rent, not a tool you own.",
       "Something quieter has been happening on the other end of the network. Apple shipped a 3-billion-parameter language model directly onto the iPhone. Google's Gemini Nano is now baked into Pixel devices. Microsoft's Phi family runs comfortably inside a browser tab. The collective effect is a generation of intelligent software that doesn't need a network round-trip to think.",
@@ -49,6 +51,7 @@ export const posts: Post[] = [
     accent: "bg-amber-500",
     excerpt:
       "The companies producing the best work in 2026 have something in common: they almost never meet. Here is what they do instead.",
+    image: "https://ai.go-forth.com/images/img-1777141505688-va9pfo.png",
     body: [
       "Walk into the average software company on a Tuesday and you will find smart, expensive people sitting in rectangles, talking. The calendar is the org chart now. The meeting is the work.",
       "Meanwhile, the teams shipping the most interesting products — Linear, Stripe, Anthropic, Arc, a long tail of indie studios — have built their cultures around the opposite premise. Default to writing. Default to async. Default to giving people the time and quiet to actually think.",
@@ -71,6 +74,7 @@ export const posts: Post[] = [
     accent: "bg-teal-500",
     excerpt:
       "Technical debt is not a metaphor. It compounds, it has interest, and the bank always collects.",
+    image: "https://ai.go-forth.com/images/img-1777141514198-gptu6a.png",
     body: [
       "Software is the only product where the manufacturing cost is roughly zero and the maintenance cost is roughly infinite. We rarely talk about it that way. We should.",
       "Every shortcut a team takes — the duplicated module, the schema with no migration plan, the auth flow stitched together on a Friday — is a loan against future engineering hours. The interest rate depends on how central the shortcut is to the system. Sometimes it is one percent and you can ignore it forever. Sometimes it is thirty percent and it eats half your team in 18 months.",
@@ -93,6 +97,7 @@ export const posts: Post[] = [
     accent: "bg-emerald-500",
     excerpt:
       "Generative AI broke the unspoken contract between what you see and what is true. Designers now have a new job: rebuild it.",
+    image: "https://ai.go-forth.com/images/img-1777141519879-sm828o.png",
     body: [
       "For most of the web's history, an image was evidence. A screenshot was proof. A video was a record. That assumption — that pixels corresponded to something that actually happened — quietly underwrote nearly every interaction online.",
       "Generative models broke the assumption in about 18 months. The technology is amazing. The downstream effect on trust is going to take a decade to metabolize.",
@@ -115,6 +120,7 @@ export const posts: Post[] = [
     accent: "bg-sky-500",
     excerpt:
       "Cloudflare, Fly, Vercel, and a dozen smaller platforms are quietly turning the network itself into a runtime. The implications are bigger than 'low latency.'",
+    image: "https://ai.go-forth.com/images/img-1777141525728-nwh2f2.png",
     body: [
       "Cloud computing was a beautiful abstraction. You stopped thinking about machines and started thinking about regions — us-east-1, eu-west-2, the polite fiction that your code lives 'somewhere in Virginia.' For a decade, that was good enough.",
       "It is not good enough anymore. As applications get richer and users get more globally distributed, the round-trip from Singapore to Virginia becomes the bottleneck nothing else can fix. You can optimize your database. You can shard your service. You cannot optimize the speed of light.",
@@ -137,6 +143,7 @@ export const posts: Post[] = [
     accent: "bg-rose-500",
     excerpt:
       "Owning a domain used to be the default. Then for ten years it was an eccentricity. Now it is starting to look like a competitive advantage.",
+    image: "https://ai.go-forth.com/images/img-1777141533476-qv2c3p.png",
     body: [
       "When I started writing on the internet, having a personal website was unremarkable. Everyone had one. They were ugly, hand-coded, and full of GIFs of construction workers. They were also yours.",
       "Then the platforms arrived and made the homepage feel quaint. Why would you set up DNS and a hosting account when Twitter was right there? Why maintain a portfolio when LinkedIn would render one for you? The convenience was real and the trade-off was invisible — until it wasn't.",
